@@ -1,6 +1,6 @@
 {
   "name": "nextjs-pages-to-app",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "this package help your migration nextjs version12 to 13",
   "main": "index.js",
   "scripts": {
@@ -17,6 +17,9 @@
   },
   "homepage": "https://github.com/jinhwan7/nextjs12to13#readme",
   "bin": {
-    "change": "index.js"
+    "change": "start.sh"
+  },
+  "dependencies": {
+    "jscodeshift": "^0.15.1"
   }
 }
