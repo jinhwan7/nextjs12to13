@@ -1,0 +1,22 @@
+{
+  "name": "nextjs-pages-to-app",
+  "version": "1.0.1",
+  "description": "this package help your migration nextjs version12 to 13",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jinhwan7/nextjs12to13.git"
+  },
+  "author": "jinhwan7",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jinhwan7/nextjs12to13/issues"
+  },
+  "homepage": "https://github.com/jinhwan7/nextjs12to13#readme",
+  "bin": {
+    "change": "index.js"
+  }
+}
